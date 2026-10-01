@@ -3,7 +3,7 @@
 
 # NASA DC Space Grant Consortium 2025 Project
 
-This is the source code for a research project I did with Dr. Denny Oliveira in the summer of 2025. Though the official project has long since ended, I still come in and update this occasionally. This code doesn't come together cohesively, it's more a collection of tools I built to download, manipulate, and display data from [space-track](https://www.space-track.org/auth/login).
+This is the source code for a research project I did with Dr. Denny Oliveira in the summer of 2025. Though the official project has long since ended, I still come in and update this occasionally. This code doesn't come together cohesively to build a single application, it's more accurately a collection of tools I built to download, manipulate, and display data from [space-track](https://www.space-track.org/auth/login).
 
 The goal of our project was to explore the effects of geomagnetic activity (space weather) on the orbital drag of Starlink satellites. This included downloading and parsing over 1000 TLEs using space-track's REST API and building representative graphs (using matplotlib) with the data. I also pulled in Dst data from the [World Data Center at Kyoto University](https://wdc.kugi.kyoto-u.ac.jp/wdc/Sec3.html) and satellite weight information from [Dr. Jonathan McDowell's Space Report](https://planet4589.org/space/con/star/stats.html). (His website is an absolute treasure trove!)
 
